@@ -46,7 +46,7 @@ db.once('open', () => {
 
 app.use(
   session({
-    secret: process.env.SESSION_SECRET || 'shreyashs',
+    secret: process.env.SESSION_SECRET || 'rajatspam',
     resave: false,
     saveUninitialized: true,
   })
